@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110590291DDD0AB3001CB63F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110590281DDD0AB3001CB63F /* AppDelegate.swift */; };
+		1105902B1DDD0AB3001CB63F /* StartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105902A1DDD0AB3001CB63F /* StartScreenView.swift */; };
+		1105902E1DDD0AB3001CB63F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1105902C1DDD0AB3001CB63F /* Main.storyboard */; };
+		110590311DDD0AB4001CB63F /* AccountBalancerApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1105902F1DDD0AB4001CB63F /* AccountBalancerApp.xcdatamodeld */; };
+		110590331DDD0AB4001CB63F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110590321DDD0AB4001CB63F /* Assets.xcassets */; };
+		110590361DDD0AB4001CB63F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110590341DDD0AB4001CB63F /* LaunchScreen.storyboard */; };
+		1105903E1DDD0AC9001CB63F /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105903D1DDD0AC9001CB63F /* Transaction.swift */; };
+		110590421DDD0B59001CB63F /* TransactionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110590411DDD0B59001CB63F /* TransactionHistory.swift */; };
+		1105904A1DDD18DE001CB63F /* CreatePurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110590491DDD18DE001CB63F /* CreatePurchaseView.swift */; };
+		1105904C1DDD18FA001CB63F /* CreateCreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105904B1DDD18FA001CB63F /* CreateCreditView.swift */; };
+		1105904E1DDD1907001CB63F /* CreateWithdrawalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105904D1DDD1907001CB63F /* CreateWithdrawalView.swift */; };
+		110590501DDD1910001CB63F /* CreateDepositView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1105904F1DDD1910001CB63F /* CreateDepositView.swift */; };
+		115E97301DF8C6E8003FB6FF /* ViewTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115E972F1DF8C6E8003FB6FF /* ViewTransactionsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		110590251DDD0AB3001CB63F /* AccountBalancerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccountBalancerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		110590281DDD0AB3001CB63F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1105902A1DDD0AB3001CB63F /* StartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenView.swift; sourceTree = "<group>"; };
+		1105902D1DDD0AB3001CB63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		110590301DDD0AB4001CB63F /* AccountBalancerApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AccountBalancerApp.xcdatamodel; sourceTree = "<group>"; };
+		110590321DDD0AB4001CB63F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		110590351DDD0AB4001CB63F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		110590371DDD0AB4001CB63F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1105903D1DDD0AC9001CB63F /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Transaction.swift; path = AccountBalancerApp/Transaction.swift; sourceTree = "<group>"; };
+		110590411DDD0B59001CB63F /* TransactionHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistory.swift; sourceTree = "<group>"; };
+		110590491DDD18DE001CB63F /* CreatePurchaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePurchaseView.swift; sourceTree = "<group>"; };
+		1105904B1DDD18FA001CB63F /* CreateCreditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCreditView.swift; sourceTree = "<group>"; };
+		1105904D1DDD1907001CB63F /* CreateWithdrawalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateWithdrawalView.swift; sourceTree = "<group>"; };
+		1105904F1DDD1910001CB63F /* CreateDepositView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateDepositView.swift; sourceTree = "<group>"; };
+		115E972F1DF8C6E8003FB6FF /* ViewTransactionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTransactionsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110590221DDD0AB3001CB63F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1105901C1DDD0AB3001CB63F = {
+			isa = PBXGroup;
+			children = (
+				110590481DDD0BEA001CB63F /* DataModels */,
+				110590401DDD0AEE001CB63F /* Objects */,
+				110590271DDD0AB3001CB63F /* AccountBalancerApp */,
+				110590261DDD0AB3001CB63F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		110590261DDD0AB3001CB63F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				110590251DDD0AB3001CB63F /* AccountBalancerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		110590271DDD0AB3001CB63F /* AccountBalancerApp */ = {
+			isa = PBXGroup;
+			children = (
+				110590281DDD0AB3001CB63F /* AppDelegate.swift */,
+				1105902A1DDD0AB3001CB63F /* StartScreenView.swift */,
+				1105902C1DDD0AB3001CB63F /* Main.storyboard */,
+				110590321DDD0AB4001CB63F /* Assets.xcassets */,
+				110590341DDD0AB4001CB63F /* LaunchScreen.storyboard */,
+				110590371DDD0AB4001CB63F /* Info.plist */,
+				1105902F1DDD0AB4001CB63F /* AccountBalancerApp.xcdatamodeld */,
+				110590491DDD18DE001CB63F /* CreatePurchaseView.swift */,
+				1105904B1DDD18FA001CB63F /* CreateCreditView.swift */,
+				1105904D1DDD1907001CB63F /* CreateWithdrawalView.swift */,
+				1105904F1DDD1910001CB63F /* CreateDepositView.swift */,
+				115E972F1DF8C6E8003FB6FF /* ViewTransactionsView.swift */,
+			);
+			path = AccountBalancerApp;
+			sourceTree = "<group>";
+		};
+		110590401DDD0AEE001CB63F /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				1105903D1DDD0AC9001CB63F /* Transaction.swift */,
+				110590411DDD0B59001CB63F /* TransactionHistory.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		110590481DDD0BEA001CB63F /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		110590241DDD0AB3001CB63F /* AccountBalancerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1105903A1DDD0AB4001CB63F /* Build configuration list for PBXNativeTarget "AccountBalancerApp" */;
+			buildPhases = (
+				110590211DDD0AB3001CB63F /* Sources */,
+				110590221DDD0AB3001CB63F /* Frameworks */,
+				110590231DDD0AB3001CB63F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccountBalancerApp;
+			productName = AccountBalancerApp;
+			productReference = 110590251DDD0AB3001CB63F /* AccountBalancerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1105901D1DDD0AB3001CB63F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Luke;
+				TargetAttributes = {
+					110590241DDD0AB3001CB63F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 110590201DDD0AB3001CB63F /* Build configuration list for PBXProject "AccountBalancerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1105901C1DDD0AB3001CB63F;
+			productRefGroup = 110590261DDD0AB3001CB63F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110590241DDD0AB3001CB63F /* AccountBalancerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		110590231DDD0AB3001CB63F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110590361DDD0AB4001CB63F /* LaunchScreen.storyboard in Resources */,
+				110590331DDD0AB4001CB63F /* Assets.xcassets in Resources */,
+				1105902E1DDD0AB3001CB63F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110590211DDD0AB3001CB63F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1105904C1DDD18FA001CB63F /* CreateCreditView.swift in Sources */,
+				1105902B1DDD0AB3001CB63F /* StartScreenView.swift in Sources */,
+				115E97301DF8C6E8003FB6FF /* ViewTransactionsView.swift in Sources */,
+				110590501DDD1910001CB63F /* CreateDepositView.swift in Sources */,
+				110590421DDD0B59001CB63F /* TransactionHistory.swift in Sources */,
+				110590311DDD0AB4001CB63F /* AccountBalancerApp.xcdatamodeld in Sources */,
+				1105903E1DDD0AC9001CB63F /* Transaction.swift in Sources */,
+				110590291DDD0AB3001CB63F /* AppDelegate.swift in Sources */,
+				1105904A1DDD18DE001CB63F /* CreatePurchaseView.swift in Sources */,
+				1105904E1DDD1907001CB63F /* CreateWithdrawalView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1105902C1DDD0AB3001CB63F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1105902D1DDD0AB3001CB63F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		110590341DDD0AB4001CB63F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110590351DDD0AB4001CB63F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		110590381DDD0AB4001CB63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		110590391DDD0AB4001CB63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1105903B1DDD0AB4001CB63F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AccountBalancerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.kirkwood.csd.AccountBalancerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1105903C1DDD0AB4001CB63F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AccountBalancerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.kirkwood.csd.AccountBalancerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110590201DDD0AB3001CB63F /* Build configuration list for PBXProject "AccountBalancerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110590381DDD0AB4001CB63F /* Debug */,
+				110590391DDD0AB4001CB63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1105903A1DDD0AB4001CB63F /* Build configuration list for PBXNativeTarget "AccountBalancerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1105903B1DDD0AB4001CB63F /* Debug */,
+				1105903C1DDD0AB4001CB63F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1105902F1DDD0AB4001CB63F /* AccountBalancerApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				110590301DDD0AB4001CB63F /* AccountBalancerApp.xcdatamodel */,
+			);
+			currentVersion = 110590301DDD0AB4001CB63F /* AccountBalancerApp.xcdatamodel */;
+			path = AccountBalancerApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1105901D1DDD0AB3001CB63F /* Project object */;
+}
